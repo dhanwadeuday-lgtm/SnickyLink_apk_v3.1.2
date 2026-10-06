@@ -1,0 +1,12 @@
+{
+  "name": "snickylink-analytics",
+  "version": "1.0.0",
+  "description": "Vercel Web Analytics integration for SnickyLink",
+  "private": true,
+  "scripts": {
+    "postinstall": "echo 'Vercel Analytics package installed'"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}

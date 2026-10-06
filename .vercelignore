@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Git
+.git/
+.gitignore
+
+# Documentation (keep lightweight for deployment)
+*.md
+!README.md
+
+# Flutter (mobile app files not needed for API deployment)
+lib/
+pubspec.yaml
+pubspec.lock
+
+# Database migrations (handled separately)
+migrations/
+
+# Tests
+tests/
+
+# Docker files (not needed on Vercel)
+Dockerfile
+docker-compose*.yml
+nginx.conf
+.dockerignore
