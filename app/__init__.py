@@ -1,0 +1,1 @@
+"""SnickyLink FastAPI Application"""
